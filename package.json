@@ -1,0 +1,55 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "private": true,
+  "engines": {
+    "node": "~8.9.3",
+    "npm": "~4.6.1"
+  },
+  "dependencies": {
+    "d3-shape": "^1.2.0",
+    "expo": "^24.0.0",
+    "moment": "^2.20.1",
+    "react": "16.0.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-24.0.0.tar.gz",
+    "react-native-firebase": "^3.0.0",
+    "react-native-app-link": "^0.4.0",
+    "react-native-dropdownalert": "^3.1.2",
+    "react-native-i18n": "2.0.9",
+    "react-native-keyboard-aware-scroll-view": "^0.4.1",
+    "react-native-mixpanel": "0.0.16",
+    "react-native-snap-carousel": "^3.7.2",
+    "react-native-splash-screen": "^3.0.6",
+    "react-native-svg-charts": "^2.2.2",
+    "react-native-swiper": "^1.5.13",
+    "react-native-swiper-custom": "^1.5.13",
+    "react-native-switch": "^1.5.0",
+    "react-native-tab-view": "0.0.74",
+    "react-native-timeline-listview": "^0.2.2",
+    "react-navigation": "^1.0.3",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "uglify-es": "3.2.2",
+    "victory-native": "^0.16.5"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-remove-console": "^6.9.0",
+    "prop-types": "^15.6.0",
+    "xml2js": "^0.4.19"
+  },
+  "resolutions": {
+    "uglify-es": "3.2.2"
+  },
+  "scripts": {
+    "setenv:development": "node ./automationScripts/setEnv.js env=development",
+    "setenv:production": "node ./automationScripts/setEnv.js env=production",
+    "setenv:uat": "node ./automationScripts/setEnv.js env=uat",
+    "setiosconfig:development": "node automationScripts/iosBuildConfig.js env=development",
+    "setiosconfig:uat": "node automationScripts/iosBuildConfig.js env=uat",
+    "setiosconfig:production": "node automationScripts/iosBuildConfig.js env=production",
+    "publish:development": "npm run setenv:development && npm run setiosconfig:development && exp publish --release-channel development",
+    "publish:uat": "npm run setenv:uat && npm run setiosconfig:uat && exp publish --release-channel uat",
+    "publish:production": "npm run setenv:production && npm run setiosconfig:production && exp publish --release-channel production",
+    "publish:all": "npm run publish:development && npm run publish:uat && npm run publish:production"
+  }
+}

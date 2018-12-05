@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="com.google.android:cameraview-1.0.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/2cc28654405b5db57474dd1b271c24e76a1b77fb/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/2cc28654405b5db57474dd1b271c24e76a1b77fb/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

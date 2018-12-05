@@ -1,0 +1,39 @@
+{
+    "expo": {
+        "name": "tatasky-broadband",
+        "description": "An empty new project",
+        "slug": "tatasky-broadband",
+        "privacy": "unlisted",
+        "sdkVersion": "24.0.0",
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "primaryColor": "#284397",
+        "icon": "./assets/tataskybb_icon.png",
+        "splash": {
+            "image": "./assets/splash_static.png",
+            "resizeMode": "cover",
+            "backgroundColor": "#ff1d72"
+        },
+        "scheme": "tataskybb",
+        "ios": {
+            "supportsTablet": true,
+            "bundleIdentifier": "com.tataskybroadband",
+            "publishBundlePath": "ios/tatasky-broadband/Supporting/shell-app.bundle",
+            "publishManifestPath": "ios/tatasky-broadband/Supporting/shell-app-manifest.json"
+        },
+        "android": {
+            "package": "com.tataskybroadband",
+            "publishBundlePath": "android/app/src/main/assets/shell-app.bundle",
+            "publishManifestPath": "android/app/src/main/assets/shell-app-manifest.json"
+        },
+        "extra": {
+            "API_ROOT": "https://uat-mapp.tataskybb.com/api/v1"
+        },
+        "isDetached": true,
+        "detach": {
+            "scheme": "expf897f3e5e5a0441e9324c50bb3c537db",
+            "iosExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/ios-v2.2.1-sdk24.0.0-36ff2264-629d-44df-a819-8c982454e5e8.tar.gz",
+            "androidExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/android-v2.2.0-sdk24.0.0-16620828-4df4-4e2d-b0af-5dc1352b82cb.tar.gz"
+        }
+    }
+}

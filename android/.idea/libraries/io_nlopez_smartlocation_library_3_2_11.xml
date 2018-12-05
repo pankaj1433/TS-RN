@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="io.nlopez.smartlocation:library-3.2.11">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/f64662c05a25718c550fea22be1977f6ea0a5086/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/f64662c05a25718c550fea22be1977f6ea0a5086/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

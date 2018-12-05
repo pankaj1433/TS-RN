@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "494649001803",
+    "firebase_url": "https://tsbb-de965.firebaseio.com",
+    "project_id": "tsbb-de965",
+    "storage_bucket": "tsbb-de965.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494649001803:android:478831c398d67c8d",
+        "android_client_info": {
+          "package_name": "com.tataskybroadband"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "494649001803-7u4vkrrptgqb6gsjcaj9ch6g5u2uqguj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tataskybroadband",
+            "certificate_hash": "892b2b46907b26d3e729829afce15446b9947450"
+          }
+        },
+        {
+          "client_id": "494649001803-1dica0t2jvprm8jc665me5m7fdt9629r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcmzdHxdikRESXeEP8cDay-bCIGj5VFK8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "494649001803-1dica0t2jvprm8jc665me5m7fdt9629r.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "494649001803-l0ucnqfvf9g1bgti2ldb0k66nla17tgf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.tatasky.tataskybroadband"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="com.facebook.android:audience-network-sdk-4.27.1">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/e3f3103cba165c9e5d7be2c3e1ac24ad8a7a8369/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/e3f3103cba165c9e5d7be2c3e1ac24ad8a7a8369/output/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
